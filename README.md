@@ -3,8 +3,8 @@
 Adding this library to your page automatically add validation for your forms. Form validation is build on the HTML5 constraint validation API which is supported on all modern browsers.
 You can use the default style.css or use it as a boilerplate.
 ```html 
-<link rel="stylesheet" href="style.css">
-<script src="form-validity.min.js">
+<link rel="stylesheet" href="https://cdn.rawgit.com/LesterGallagher/form-validity/51c92fac/style.css">
+<script src="https://cdn.rawgit.com/LesterGallagher/form-validity/51c92fac/form-validity.min.js">
 ```
 
 For example:
