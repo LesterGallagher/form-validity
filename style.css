@@ -1,0 +1,22 @@
+.form-validity:focus-within:invalid {
+    border-color: #f00;
+}
+
+.form-validity :focus:invalid, .form-validity [aria-invalid="true"] {
+    border-color: #f00;
+}
+
+.form-validity .error {
+    color: #f00;
+}
+
+.form-validity :required, .form-validity .required {
+    background: 
+        url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cjx0ZXh0IGZpbGw9InJlZCIgeD0iMCIgeT0iMTQiPio8L3RleHQ+PC9zdmc+") 
+            no-repeat right top;
+}
+
+.form-validity :valid:not([type="submit"])[aria-invalid="false"] {
+    border-color: #0f0;
+    background-image: none;
+}

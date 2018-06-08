@@ -1,0 +1,16 @@
+{
+  "name": "form-validity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "google-closure-compiler": "^20180506.0.0",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8"
+  }
+}
