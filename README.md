@@ -64,7 +64,7 @@ You can also it warning messages by setting "data-validity-warn-&lt;warning-type
 * min
 * max
 
-Manually triggering vorm validation can be done like this:
+Manually triggering form validation can be done like this:
 ```javascript
 var event = new Event('form-validity');
 document.getElementById('form-or-input-element-id').dispatchEvent(event);
